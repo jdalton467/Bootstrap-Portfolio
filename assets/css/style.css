@@ -117,6 +117,12 @@ background-image: url(../images/cork-wallet.jpg);
 	text-align: center;
 }
 
+.row-fluid{
+	width: 100;
+}
+
+
+
 @media screen and (max-width: 980px){
 #navbar{
   /*position:static;*/
