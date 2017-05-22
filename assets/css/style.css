@@ -128,10 +128,9 @@ background-image: url(../images/cork-wallet.jpg);
 
 @media screen and (max-width: 768px){
 #navbar{
-  position:static;
+  padding:10px;
 }
-
-#container{
+#maincontent{
 	position: static;
 }
 
