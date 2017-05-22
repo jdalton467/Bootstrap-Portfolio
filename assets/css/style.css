@@ -86,6 +86,7 @@ background-image: url(../images/cork-wallet.jpg);
 #banner{
 	position: relative;
 	z-index: 1;
+	width: 250px;
 }
 
 #banner h3{
@@ -103,6 +104,8 @@ background-image: url(../images/cork-wallet.jpg);
 
 #portpics{
 	margin:auto;
+	margin-bottom: 10px;
+
 }
 
 #footer{
@@ -116,33 +119,14 @@ background-image: url(../images/cork-wallet.jpg);
 
 @media screen and (max-width: 980px){
 #navbar{
-  position:static;
+  /*position:static;*/
 }
 
 #container{
 	position: static;
+	padding:20px;
+	min-width: 500px;
 }
 
 }
 
-
-@media screen and (max-width: 768px){
-#navbar{
-  padding:10px;
-}
-#maincontent{
-	position: static;
-}
-
-}
-
-@media screen and (max-width: 640px){
-#navbar{
-  position:static;
-}
-
-#container{
-	position: static;
-}
-
-}
