@@ -1,0 +1,149 @@
+
+body{padding-top: 120px;
+	padding-bottom: 120px;
+background-image: url(../images/cork-wallet.jpg);
+}
+
+.container{
+	width:960px;
+}
+
+#name{
+	background-color: #4aaaa5;
+	color:#ffffff;
+	text-align: center;
+	padding:10px;
+	font-family: Georgia, Times, serif;
+}
+
+.links{
+	text-align: center;
+	font-family: Georgia, Times, serif;
+	bottom:0px;
+	height:100%;
+}
+
+#link_{
+	border-left:solid #cccccc 0.5px;
+	border-right: solid #cccccc 0.5px;
+	margin:auto;
+}
+
+#maincontent{
+	width:960px;
+	height: 100%;
+	margin-top: 
+	margin:auto;
+	padding:10px;
+}
+
+#contenttitle{
+	border-bottom:#cccccc solid 2px;
+	font-family: Georgia,Times,serif;
+	width:70%;
+	margin-left:40px;
+	color:#4aaaa5;
+	margin-bottom: 20px;
+}
+
+#about{
+	/*border:solid black;*/
+	padding:20px;
+	width:650px;
+	background-color: #ffffff;
+	color: #666666;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#connectimages{
+	width: 270px;
+	padding-top: 20px;
+	text-align: center;
+	float:right;
+	background-color: #ffffff;
+	font-family: Georgia,Times,Serif;
+	padding-bottom:30px;
+}
+
+.form{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#Message{
+	width: 590px;
+	height: 200px;
+}
+
+#submit{
+	height: 40px;
+	width: 117px;
+	color: #4aaaa5;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner{
+	position: relative;
+	z-index: 1;
+}
+
+#banner h3{
+	position: relative;
+	z-index: 2;
+	background-color: #4aaaa5;
+	color: #fff;
+	width: 200px;
+	height: 50px;
+	text-align:center;
+	margin-top: -60px;
+	font-family: Georgia, Times, serif;
+
+}
+
+#portpics{
+	margin:auto;
+}
+
+#footer{
+	margin:auto;
+	background-color: #666666;
+	height: 60px;
+	border-top:solid #4aaaa5 5px;
+	color: #fff;
+	text-align: center;
+}
+
+@media screen and (max-width: 980px){
+#navbar{
+  position:static;
+}
+
+#container{
+	position: static;
+}
+
+}
+
+
+@media screen and (max-width: 768px){
+#navbar{
+  position:static;
+}
+
+#container{
+	position: static;
+}
+
+}
+
+@media screen and (max-width: 640px){
+#navbar{
+  position:static;
+}
+
+#container{
+	position: static;
+}
+
+}
